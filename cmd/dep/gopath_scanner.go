@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/paths"
-	"github.com/golang/dep/gps/pkgtree"
-	fb "github.com/golang/dep/internal/feedback"
-	"github.com/golang/dep/internal/fs"
+	"github.com/wesgur/dep"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/gps/paths"
+	"github.com/wesgur/dep/gps/pkgtree"
+	fb "github.com/wesgur/dep/internal/feedback"
+	"github.com/wesgur/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

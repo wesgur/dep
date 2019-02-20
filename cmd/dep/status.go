@@ -20,10 +20,10 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/paths"
-	"github.com/golang/dep/gps/verify"
+	"github.com/wesgur/dep"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/gps/paths"
+	"github.com/wesgur/dep/gps/verify"
 	"github.com/pkg/errors"
 )
 

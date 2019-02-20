@@ -7,7 +7,7 @@ package cycle
 import (
 	"cycle/one"
 
-	"github.com/golang/dep/gps"
+	"github.com/wesgur/dep/gps"
 )
 
 var (

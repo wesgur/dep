@@ -9,15 +9,15 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
+	"log" 
 	"os"
 	"path/filepath"
 	"sort"
 	"strings"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/verify"
+	"github.com/wesgur/dep"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/gps/verify"
 	"github.com/pkg/errors"
 )
 

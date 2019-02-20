@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/dep/internal/test"
+	"github.com/wesgur/dep/internal/test"
 	"github.com/pkg/errors"
 )
 

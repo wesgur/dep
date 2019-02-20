@@ -7,8 +7,8 @@ package dep
 import (
 	"path/filepath"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/internal/test"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/internal/test"
 	"github.com/pkg/errors"
 )
 

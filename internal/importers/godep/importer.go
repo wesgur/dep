@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/internal/importers/base"
+	"github.com/wesgur/dep"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/internal/importers/base"
 	"github.com/pkg/errors"
 )
 

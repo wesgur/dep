@@ -12,11 +12,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/paths"
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/gps/verify"
-	"github.com/golang/dep/internal/fs"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/gps/paths"
+	"github.com/wesgur/dep/gps/pkgtree"
+	"github.com/wesgur/dep/gps/verify"
+	"github.com/wesgur/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

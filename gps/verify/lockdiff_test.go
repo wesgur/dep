@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/dep/gps"
+	"github.com/wesgur/dep/gps"
 )
 
 func contains(haystack []string, needle string) bool {

@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver"
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/fs"
+	"github.com/wesgur/dep/gps/pkgtree"
+	"github.com/wesgur/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 
@@ -277,7 +277,7 @@ func (s *gitSource) listVersions(ctx context.Context) (vlist []PairedVersion, er
 		// Valid `git ls-remote` output should start with hash, be at least
 		// 45 chars long and 40th character should be '\t'
 		//
-		// See: https://github.com/golang/dep/pull/1160#issuecomment-328843519
+		// See: https://github.com/wesgur/dep/pull/1160#issuecomment-328843519
 		if len(pair) < 45 || pair[40] != '\t' || !s.isValidHash(pair[:40]) {
 			continue
 		}

@@ -13,9 +13,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/verify"
-	"github.com/golang/dep/internal/fs"
+	"github.com/wesgur/dep/gps"
+	"github.com/wesgur/dep/gps/verify"
+	"github.com/wesgur/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

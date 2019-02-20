@@ -7,7 +7,7 @@ package frommain
 import (
 	"sort"
 
-	"github.com/golang/dep/gps"
+	"github.com/wesgur/dep/gps"
 )
 
 var (
